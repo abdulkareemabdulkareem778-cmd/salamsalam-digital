@@ -1,4 +1,4 @@
-:root { --accent: #1565c0; --maxw: 1100px; font-family: system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; }
+:root { --accent: #050505; --maxw: 1100px; font-family: system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; }
 *{box-sizing:border-box} body{margin:0;line-height:1.5;color:#111}
 .container{max-width:var(--maxw);margin:0 auto;padding:1rem}
 .site-header{background:#a5c227;border-bottom:1px solid #792659;position:sticky;top:0;z-index:10}
