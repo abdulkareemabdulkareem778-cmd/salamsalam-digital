@@ -90,3 +90,33 @@
 body {
   background-color: #12a8ce; /* Change this color as you like */
 }
+.contact {
+  display: flex;
+  flex-direction: column; /* stack everything vertically */
+  gap: 20px; /* space between form and contact info */
+  max-width: 500px; /* keep it centered and neat */
+  margin: 0 auto;
+}
+
+.contact-info {
+  background: linear-gradient(to bottom, green, blue); 
+  padding: 15px;
+  border-radius: 8px;
+}
+body {
+  background: linear-gradient(to bottom, green, red, blue);
+  min-height: 100vh;
+  margin: 0;
+}
+#contact {
+  background: linear-gradient(to right, green, red, blue);
+  color: rgb(24, 23, 23); /* make text readable */
+  padding: 30px;
+  border-radius: 10px;
+}
+#about {
+  background: radial-gradient(circle, green, red, blue);
+  color: rgb(7, 7, 7);
+  padding: 50px;
+}
+
