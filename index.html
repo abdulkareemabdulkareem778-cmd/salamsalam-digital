@@ -1,104 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>salamsalam digital — We are a passionate team dedicated to helping businesses grow online through responsive web design, strategic branding, and effective marketing. Our goal is to make your brand stand out and attract the right audience. </title>
-  <meta name="web design, branding, marketing" content=" We are a passionate team dedicated to helping businesses grow online through responsive web design, strategic branding, and effective marketing. Our goal is to make your brand stand out and attract the right audience." />
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>
+      salamsalam digital — We are a passionate team dedicated to helping
+      businesses grow online through responsive web design, strategic branding,
+      and effective marketing. Our goal is to make your brand stand out and
+      attract the right audience.
+    </title>
+    <meta
+      name="web design, branding, marketing"
+      content=" We are a passionate team dedicated to helping businesses grow online through responsive web design, strategic branding, and effective marketing. Our goal is to make your brand stand out and attract the right audience."
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-  <link rel="stylesheet" href="style.css" />
-</head>
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script>
-  (function(){
-      emailjs.init("6L5RscEUe4fz_jNOS"); // 
-  })();
+    <link rel="stylesheet" href="style.css" />
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Salamsalam Digital" />
+    <meta
+      property="og:description"
+      content="We are a passionate team dedicated to helping businesses grow online through responsive web design."
+    />
+    <meta
+      property="og:image"
+      content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/favicon.png"
+    />
+    <meta
+      property="og:url"
+      content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/"
+    />
+    <meta property="og:type" content="website" />
 
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault();
-      emailjs.sendForm('service_chv2ciy', 'template_jrn79pf', this)
-          .then(function() {
-              alert('✅ Message sent successfully!');
-          }, function(error) {
-              alert('❌ Failed to send message. Please try again.');
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Salamsalam Digital" />
+    <meta
+      name="twitter:description"
+      content="We are a passionate team dedicated to helping businesses grow online through responsive web design."
+    />
+    <meta
+      name="twitter:image"
+      content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/favicon.png"
+    />
+  </head>
+  <body>
+    <header>
+     
+    </header>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        We are a passionate team dedicated to helping businesses grow online
+        through responsive web design, strategic branding, and effective
+        marketing. Our goal is to make your brand stand out and attract the
+        right audience.
+      </p>
+    </section>
+    <img
+      src="logo.png"
+      alt="Business Logo"
+      height="100"
+    /><P>WEB Designing, Branding, Marketing  </P>
+    <main>
+      <section id="services" class="container services">
+        <h2>Our Services</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Web Design</h3>
+            
+            <img
+              src="service1.jpg"
+              alt="Service 1"
+            /><p>Beautiful, responsive websites for your business.</p>
+            
+          </div>
+          <div class="card">
+            <h3>Branding</h3>
+            
+            <img
+              src="service2.jpg"
+              alt="Service 2"
+            /><p>Logos, colors, and identity that make you stand out.</p>
+          </div>
+          <div class="card">
+            <h3>Marketing</h3>
+            <img
+              src="Service3.jpg"
+              alt="Service 3"
+            />
+            <p>SEO and campaigns to help customers find you.</p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="container contact">
+        <h2>Contact Us</h2>
+
+        <!-- Contact Form -->
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xzzjgrql"
+          method="POST"
+        >
+          <label>
+            Your Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Your Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" required></textarea>
+          </label>
+
+          <button type="submit">Send</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p><strong>Name:</strong> salam salam Digital</p>
+          <p><strong>Email:</strong> abdulkareemabdulkareem778@gmail.com</p>
+          <p><strong>Phone 📞:</strong> +2349063320838</p>
+          <p><strong>WhatsApp 💬:</strong> +2349063320838 or +2349133613434</p>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <script>
+        (function () {
+          emailjs.init("6L5RscEUe4fz_jNOS"); //
+        })();
+
+        document
+          .getElementById("contact-form")
+          .addEventListener("submit", function (event) {
+            event.preventDefault();
+            emailjs.sendForm("service_chv2ciy", "template_jrn79pf", this).then(
+              function () {
+                alert("✅ Message sent successfully!");
+              },
+              function (error) {
+                alert("❌ Failed to send message. Please try again.");
+              }
+            );
           });
-  });
-</script> <!-- Open Graph meta tags -->
-<meta property="og:title" content="Salamsalam Digital">
-<meta property="og:description" content="We are a passionate team dedicated to helping businesses grow online through responsive web design.">
-<meta property="og:image" content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/favicon.png">
-<meta property="og:url" content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/">
-<meta property="og:type" content="website">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Salamsalam Digital">
-<meta name="twitter:description" content="We are a passionate team dedicated to helping businesses grow online through responsive web design.">
-<meta name="twitter:image" content="https://abdulkareemabdulkareem778-cmd.github.io/salamsalam-digital/favicon.png">
-
-
-
-<body>
-<section id="about"
-;">
-  <h2>About Us</h2>
-  <p>
-    We are a passionate team dedicated to helping businesses grow online through responsive web design, strategic branding, and effective marketing. Our goal is to make your brand stand out and attract the right audience.
-  </p>
-</section>
-
-
-  </header><img src="logo.png" alt="Business Logo" height="100" />
-  <span>web design,branding,marketing</span>
-
-  <main><section id="services" class="container services">
-  <h2>Our Services</h2>
-  <div class="grid">
-    <div class="card">
-     <img src="service1.jpg" alt="Service 1" />
-      <h3>Web Design</h3>
-      <p>Beautiful, responsive websites for your business.</p>
-    </div>
-    <div class="card">
-      <img src="service2.jpg" alt="Service 2" />
-      <h3>Branding</h3>
-      <p>Logos, colors, and identity that make you stand out.</p>
-    </div>
-    <div class="card">
-      <img src="service3.jpg" alt="Service 3" />
-      <h3>Marketing</h3>
-      <p>SEO and campaigns to help customers find you.</p>
-    </div>
-  </div>
-</section>
-<section id="contact" class="container contact">
-  <h2>Contact Us</h2>
-
-  <!-- Contact Form -->
-  <form id="contact-form" action="https://formspree.io/f/xzzjgrql" method="POST">
-    <label>
-      Your Name
-      <input type="text" name="name" required>
-    </label>
-    <label>
-      Your Email
-      <input type="email" name="email" required>
-    </label>
-    <label>
-      Message
-      <textarea name="message" required></textarea>
-    </label>
-    <button type="submit">Send</button>
-  </form>
-
-  <!-- Contact Info -->
-  <div class="contact-info">
-    <p><strong>Name:</strong> salam salam Digital</p>
-    <p><strong>Email:</strong> abdulkareemabdulkareem778@gmail.com</p>
-    <p><strong>Phone 📞:</strong> +2349063320838</p>
-    <p><strong>WhatsApp 💬:</strong> +2349063320838 or +2349133613434</p>
-  </div>
-</section>
-
-      
+      </script>
+    </main>
+    <
+  </body>
+</html>
