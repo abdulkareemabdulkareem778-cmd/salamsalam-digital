@@ -1,26 +1,98 @@
-:root { --accent: #050505; --maxw: 1100px; font-family: system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial; }
-*{box-sizing:border-box} body{margin:0;line-height:1.5;color:#111}
-.container{max-width:var(--maxw);margin:0 auto;padding:1rem}
-.site-header{background:#a5c227;border-bottom:1px solid #792659;position:sticky;top:0;z-index:10}
-.site-header .container{display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:700;text-decoration:none;color:var(--accent)}
-.nav a{margin-left:1rem;text-decoration:none;color:inherit}
-.menu-toggle{display:none;background:none;border:0;font-size:1.4rem}
+/*
+:root {
+  --accent: #050505;
+  --maxw: 1100px;
+  font-family: system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  line-height: 1.5;
+  color: #111;
+}
+.container {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 1rem;
+}
+.site-header {
+  background: #a5c227;
+  border-bottom: 1px solid #792659;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--accent);
+}
+.nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+.menu-toggle {
+  display: none;
+  background: none;
+  border: 0;
+  font-size: 1.4rem;
+}
 
-/* hero */
-.hero{padding:4rem 1rem;text-align:center}
-.btn{display:inline-block;margin-top:1rem;padding:.6rem 1rem;background:var(--accent);color:#13a7389c;text-decoration:none;border-radius:6px}
+.hero {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--accent);
+  color: #13a7389c;
+  text-decoration: none;
+  border-radius: 6px;
+}
 
-/* services grid */
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
-.card{padding:1rem;border:1px solid #7c0505;border-radius:8px}
 
-/* responsive */
-@media (max-width:800px){
-  .grid{grid-template-columns:1fr}
-  .nav{display:none}
-  .menu-toggle{display:block}
-  .nav.show{display:block;position:absolute;right:1rem;top:64px;background:#c40606;padding:1rem;border:1px solid #eee;border-radius:6px}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.card {
+  padding: 1rem;
+  border: 1px solid #7c0505;
+  border-radius: 8px;
+}
+
+
+@media (max-width: 800px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .nav {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .nav.show {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 64px;
+    background: #c40606;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  }
 }
 .logo {
   display: flex;
@@ -29,7 +101,9 @@
   color: var(--accent);
   text-decoration: none;
 }
-.logo img { margin-right: 8px; }
+.logo img {
+  margin-right: 8px;
+}
 .services h2 {
   text-align: center;
   margin-bottom: 2rem;
@@ -45,7 +119,7 @@
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 6px rgba(135, 133, 143, 0.05);
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 .services .card:hover {
   transform: translateY(-5px);
@@ -53,7 +127,7 @@
 .services .card img {
   max-width: 100%;
   border-radius: 8px;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
 }
 .contact form {
   max-width: 500px;
@@ -88,18 +162,18 @@
   background: #18171700;
 }
 body {
-  background-color: #12a8ce; /* Change this color as you like */
+  background-color: #12a8ce; 
 }
 .contact {
   display: flex;
-  flex-direction: column; /* stack everything vertically */
-  gap: 20px; /* space between form and contact info */
-  max-width: 500px; /* keep it centered and neat */
+  flex-direction: column; 
+  gap: 20px; 
+  max-width: 500px; 
   margin: 0 auto;
 }
 
 .contact-info {
-  background: linear-gradient(to bottom, green, blue); 
+  background: linear-gradient(to bottom, green, blue);
   padding: 15px;
   border-radius: 8px;
 }
@@ -108,15 +182,28 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+*/
+
+/*
 #contact {
   background: linear-gradient(to right, green, red, blue);
-  color: rgb(24, 23, 23); /* make text readable */
+  color: rgb(24, 23, 23); 
   padding: 30px;
   border-radius: 10px;
 }
 #about {
   background: radial-gradient(circle, green, red, blue);
   color: rgb(7, 7, 7);
-  padding: 50px;
+  padding: 50px;
+}
+  */
+body {
+  background-color: lightblue;
+  color: black;
+margin: 30px;
 }
 
+img {
+  width: 150px;
+  height: 150px;
+}
