@@ -198,6 +198,7 @@ body {
 }
   */
 body {
+  background: radial-gradient( green, lightblue);
   background-color: lightblue;
   color: black;
 margin: 20px;
