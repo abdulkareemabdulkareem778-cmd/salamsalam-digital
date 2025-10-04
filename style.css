@@ -198,7 +198,6 @@ body {
 }
   */
 body {
-  background: radial-gradient( green, lightblue);
   background-color: lightblue;
   color: black;
 margin: 20px;
@@ -227,7 +226,7 @@ align-items: center;
 form {
   width: 400px;
   background-color: green;
-  margin: 20px;
+  margin: 10px;
   border-radius: 15px;
   text-align: center;
 }
