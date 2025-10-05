@@ -260,5 +260,7 @@ footer {
   color: black;
   text-align: center;
   background-color: lightgreen;
-  background-position: 20px;
+  width: 500px;
+  height: 250px;
+  
 }
