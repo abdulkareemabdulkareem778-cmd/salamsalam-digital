@@ -1,4 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
+# Fresh deployment trigger after resolving a duplicate-artifact rerun.
 name: Deploy static content to Pages
 
 on:
