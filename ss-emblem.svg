@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="title desc">
+  <title id="title">Salaam Salaam Digital SS emblem</title>
+  <desc id="desc">Interlocking metallic gold and silver S-shaped monogram with subtle digital pixel accents.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4dfad"/>
+      <stop offset=".45" stop-color="#c7a66a"/>
+      <stop offset="1" stop-color="#8b6734"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf5"/>
+      <stop offset=".5" stop-color="#c9c5ba"/>
+      <stop offset="1" stop-color="#77746c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+  </defs>
+  <g opacity=".25" filter="url(#shadow)" fill="#c7a66a">
+    <path d="M423 105c-44-25-93-37-146-37-105 0-181 54-181 136 0 74 57 111 163 139l70 19c52 14 78 30 78 57 0 34-37 55-96 55-64 0-123-24-175-68l-59 91c61 54 143 82 235 82 116 0 198-56 198-149 0-76-53-119-162-149l-75-21c-52-15-76-29-76-54 0-29 32-48 82-48 47 0 91 13 133 40z"/>
+  </g>
+  <path fill="url(#gold)" d="M423 105c-44-25-93-37-146-37-105 0-181 54-181 136 0 74 57 111 163 139l70 19c52 14 78 30 78 57 0 34-37 55-96 55-64 0-123-24-175-68l-59 91c61 54 143 82 235 82 116 0 198-56 198-149 0-76-53-119-162-149l-75-21c-52-15-76-29-76-54 0-29 32-48 82-48 47 0 91 13 133 40z"/>
+  <path fill="url(#silver)" d="M520 172c-35-30-79-51-131-61l-26 87c48 12 83 34 104 67 18 29 25 65 17 105-10 51-43 90-95 116l47 81c79-39 131-101 148-183 17-84-7-158-64-212z" opacity=".94"/>
+  <g fill="url(#gold)">
+    <rect x="548" y="95" width="24" height="24" rx="3"/>
+    <rect x="585" y="132" width="17" height="17" rx="2"/>
+    <rect x="614" y="164" width="12" height="12" rx="2"/>
+  </g>
+</svg>
