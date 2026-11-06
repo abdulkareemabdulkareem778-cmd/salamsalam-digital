@@ -181,7 +181,7 @@ h2 { margin-bottom: 0; font-size: clamp(39px, 5vw, 59px); line-height: 1.08; let
   .hero-note { margin-top: 42px; font-size: 9px; }
   .hero-art { height: 320px; }
   .art-panel { height: 250px; width: 75%; padding: 16px; }
-  .panel-symbol { font-size: 130px; }
+  .panel-emblem { width: 165px; height: 165px; }
   .art-orbit { width: 300px; height: 300px; }
   .orbit-two { width: 270px; height: 270px; }
   .floating-tag { font-size: 6px; padding: 9px 10px; }
