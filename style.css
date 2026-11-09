@@ -22,7 +22,7 @@ button, input, textarea, select { font: inherit; }
 .site-header { position: sticky; top: 0; z-index: 20; background: rgba(16,16,15,.88); backdrop-filter: blur(18px); border-bottom: 1px solid var(--line); }
 .nav-wrap { width: min(1240px, calc(100% - 64px)); height: 84px; margin: auto; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 11px; }
-.brand-mark { width: 37px; height: 37px; object-fit: contain; }
+.brand-mark { width: 150px; height: 76px; object-fit: contain; display: block; }
 .brand-name { position: relative; font: 800 17px/1 var(--font-display); letter-spacing: -.07em; text-transform: lowercase; }
 .brand-name > span { color: var(--gold); }
 .brand-name small { display: block; margin-top: 6px; font: 600 8px/1 var(--font-body); letter-spacing: .32em; color: #aaa69d; }
@@ -135,7 +135,7 @@ h2 { margin-bottom: 0; font-size: clamp(39px, 5vw, 59px); line-height: 1.08; let
 .form-status { color: var(--gold-light); }
 .site-footer { background: #0b0b0a; border-top: 1px solid var(--line); }
 .footer-main { min-height: 150px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
-.footer-brand .brand-mark { width: 32px; height: 32px; }
+.footer-brand .brand-mark { width: 175px; height: 90px; }
 .footer-main > p { margin: 0; color: #817d74; font-size: 10px; line-height: 1.8; }
 .back-top { color: var(--gold); font-size: 8px; letter-spacing: .15em; }
 .footer-bottom { min-height: 55px; display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); color: #6d6961; font-size: 8px; letter-spacing: .08em; }
@@ -181,7 +181,7 @@ h2 { margin-bottom: 0; font-size: clamp(39px, 5vw, 59px); line-height: 1.08; let
   .hero-note { margin-top: 42px; font-size: 9px; }
   .hero-art { height: 320px; }
   .art-panel { height: 250px; width: 75%; padding: 16px; }
-  .panel-emblem { width: 165px; height: 165px; }
+  .panel-emblem { width: 240px; height: 160px; }
   .art-orbit { width: 300px; height: 300px; }
   .orbit-two { width: 270px; height: 270px; }
   .floating-tag { font-size: 6px; padding: 9px 10px; }
